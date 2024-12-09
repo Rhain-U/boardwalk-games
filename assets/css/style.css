@@ -13,7 +13,7 @@
 
 /*Global styles*/
 
-body {
+body { 
     font-family: var(--primary-font);
 }
 
@@ -24,4 +24,15 @@ h1,h2,h3 {
 
 .sub-heading-color {
     color: var(--highlight-color);
+}
+
+/*Grid visualisation CSS for testing*/
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
 }
